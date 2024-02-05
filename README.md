@@ -8,7 +8,6 @@
  - Conditional statements
  - Loop Centrol Statements
  - Functions & Recursion
- - Patterns
  - Pointers
  - Arrays
  - Strings
@@ -16,8 +15,11 @@
  - Files I/O
  - Dynamic memory allocation
  - Patterns
- - DSA
+ - Algorithms
 <br>
 <br>
- <blockquote>some minor topics are introduced in between and at last a projest dir for more understanding of c lang
+ <blockquote>some minor topics are introduced in between and at last a project dir for more understanding of c lang
  </blockquote>
+<br>
+ if you want to know more about C library functions visit this site
+[library functions](https://www.ibm.com/docs/en/i/7.3?topic=extensions-standard-c-library-functions-table-by-name)

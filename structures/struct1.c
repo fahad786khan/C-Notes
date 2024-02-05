@@ -17,7 +17,7 @@ struct student{
 
 int main() {
     struct student s1;
-    s1.roll = 132;
+    s1.roll = 132;//Dot (.)operator is used to access the members of a structure or union.when a normal variable of that structure or union is used
     s1.cgpa = 9.8;
     strcpy(s1.name,"faraz");
 

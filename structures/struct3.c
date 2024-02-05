@@ -7,7 +7,7 @@
     ptr = &s1;
 */
 /* Arrow Pointer
-(*ptr).roll  same   ptr->roll
+(*ptr).roll same ptr->roll help in clear visuality and used when a pointer to that structure or union is used
 */
 struct student{
     char name[100];
