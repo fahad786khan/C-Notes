@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#include <math.h>
 
 /*Pointer to Pointer
         |
@@ -12,14 +12,16 @@ char **star;
 float **price;
 */
 /*Print the value of 'i' from its pointer to pointer*/
-int main(){
+
+int main()
+{
     int i;
     printf("enter the value : ");
-    scanf("%d",&i);
+    scanf("%d", &i);
 
     int *ptr = &i;
     int **pptr = &ptr;
 
-    printf("%d \n",**pptr);
+    printf("%d \n", **pptr);
     return 0;
 }
