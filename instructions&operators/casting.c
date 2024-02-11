@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//?casting -->when we explicitly want to convert a larger data type to smaller or vice verse
+//?casting -->when we explicitly want to convert a larger data type to smaller or vice verse.this is also known as typecasting
 //?it doesn't round off but remove the decimals and it's values
 
 int main()

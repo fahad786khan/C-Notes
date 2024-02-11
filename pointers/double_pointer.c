@@ -4,6 +4,7 @@
 /*Pointer to Pointer
         |
 A variable that stores the memory address of another pointer
+It is also kown as double pointer
 */
 
 /*Syntax
