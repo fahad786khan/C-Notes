@@ -1,26 +1,30 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-/* free()
-We use it to free memory that is allocated using malloc & calloc
+/* realloc()
+reallocate(increase or decrese)memory using the same pointer & size
 
-free(ptr);
+ptr = realloc(ptr,newSize);
 */
+/*Allocate memory for 5 numbers.Then dynamically increse it to 8 numbers.*/
 int main(){
      int *ptr;
-    int n;
-    printf("enter n : ");
-    scanf("%d",&n);
-    ptr = (int *) calloc(n,sizeof(int));
-
-    for(int i=0;i<n;i++){
-        printf("%d\n",ptr[i]);
+    ptr = (int *) calloc(5,sizeof(int));
+    
+    printf("enter numbers(5) :");
+    for(int i=0;i<5;i++){
+        scanf("%d",&ptr[i]);
     }
-    free(ptr);
 
-    ptr = (int*)calloc(2,sizeof(int));//more two zeros '0'
-    for(int i=0;i<2;i++){
-        printf("%d\n",ptr[i]);
+    ptr = realloc(ptr,8);
+    printf("enter number(8) :");
+     for(int i=0;i<8;i++){
+        scanf("%d",&ptr[i]);
+    }
+
+    //print
+     for(int i=0;i<8;i++){
+        printf("number %d is %d\n",i,ptr[i]);
     }
     return 0;
 }

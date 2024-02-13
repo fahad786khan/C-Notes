@@ -9,7 +9,7 @@ int main(){
     int n;
     printf("enter n : ");
     scanf("%d",&n);
-       ptr = (int *) calloc(n,sizeof(int));
+    ptr = (int *) calloc(n,sizeof(int));
 
     for(int i=0;i<n;i++){
         printf("%d\n",ptr[i]);

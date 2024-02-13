@@ -16,4 +16,5 @@ int main()
         printf("Memory allocated successfully");
     }
     return 0;
+    free(ptr);
 }
