@@ -1,15 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*  calloc()~continuous allocation
- initializes with 0
-ptr = (int*)calloc(5,sizeof(int));
-*/
+/*WAP to allocate memory to store 5 prices.*/
 
 int main()
 {
     float *ptr;
-    ptr = (float *)calloc(5, sizeof(float));
+    ptr = (float *)malloc(5 * sizeof(float));
+
+    ptr[0] = 49;
+    ptr[1] = 99;
+    ptr[2] = 199;
+    ptr[3] = 299;
+    ptr[4] = 249;
 
     for (int i = 0; i < 5; i++)
     {

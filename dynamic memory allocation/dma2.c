@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h> //remember to include this library
 
-/*  malloc()~memory allocation
-takes number of bytes to be allocated & returns a pointer
-to type void
+/* 1.malloc()~memory allocation takes number of bytes to be allocated & returns a pointer to type void
+2.malloc is the short name for "memory allocation" and is used to dynamically allocate a single large block of contiguous memory according to the size specified.
+SYNTAX: (void*)malloc(size_t size)
+3.Malloc function simply allocates a memory block according to the size specified in the heap and on success it returns a pointer pointing to the first byte of the allocated memory
+else on failure returns NULL.
+4.size_t is defied in <stdlib.h> as unsigned int
 ptr = (int*)malloc(5*sizeof(int));
 */
 

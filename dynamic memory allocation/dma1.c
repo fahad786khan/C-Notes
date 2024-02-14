@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*  Dynamic Memory Allocation
                 |
@@ -10,14 +10,15 @@ we need some function to allocate & free memory dynamically
 | Function Name | Function Description |
 | ------------- | -------------------- |
 | malloc()      | memory alloction     |
-| calloc()      | continous            |
+| calloc()      | clear alloction      |
 | free()        | free the memory      |
 | realloc()     | re-allocation        |
 */
-int main(){
-    //sizeof() function 
-    printf("%d\n",sizeof(int)); //4
-    printf("%d\n",sizeof(float));//4
-    printf("%d\n",sizeof(char));//1
+int main()
+{
+    // sizeof() function
+    printf("%d\n", sizeof(int));   // 4
+    printf("%d\n", sizeof(float)); // 4
+    printf("%d\n", sizeof(char));  // 1
     return 0;
 }
