@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*using NULL pointer the malloc function is called*/
+/*using NULL pointer the malloc function is called
+Allocatesd memory can only be accessed by pointers*/
 
 int main()
 {

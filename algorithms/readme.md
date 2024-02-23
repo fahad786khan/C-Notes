@@ -1,3 +1,3 @@
 Searching-linear , binary, ternary
 
-Sorting-selection, merge ,qucik, bubble
+Sorting-selection, merge ,qucik, bubble,inertion
