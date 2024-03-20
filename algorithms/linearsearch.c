@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*A searching algorithm is a method or process used to find or retrieve an element from a data structure.The goal is to find whether an item exists in the data set,
+and oftentimes to detemine its location
+*/
+
 /*Time Complexity
 Best Case: O(1)
 Average Case:O(n+1/2)
@@ -9,6 +13,7 @@ Worst case:O(n)
 
 /*
 Working of the linear search is also known as sequential search
+->Each element is cheaked in sequence until you find what you're looking for or the list ends.if the current element equals what we're looking for(x),return it.
 1.Check each element in the list by comparing it to the key.
 2.If any element is equal to the key, return its index.
 3.If we reach the end of the list without finding the element equal to the key, return some value to represent that the element is not found.

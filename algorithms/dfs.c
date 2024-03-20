@@ -10,7 +10,7 @@ Worst case:O(V+E)here V means vertices and E means edges
 
 /*
 Working of the linear search
-
+->it is an algorithm for traversing or searching tree or graph ata structures.The algorithm starts at the nodes and explores as far as possible along each branch before backtracking
 APPLICATION AND BENEFITS
 -
 */

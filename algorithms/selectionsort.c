@@ -6,3 +6,8 @@ Average Case:O(n^2)
 Worst case:O(n^2)
  */
 //?Space complexity :O(1)
+
+/*Working of Selection sort
+->
+APPLICATION AND BENEFITS
+*/
