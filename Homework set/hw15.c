@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-Write a program in C to print the elements of an  array in reverse order.
+Write a program to print the elements of an  array in reverse order.
 */
 
 int main()
